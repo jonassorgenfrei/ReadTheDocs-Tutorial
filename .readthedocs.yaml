@@ -1,4 +1,11 @@
 version: 2
+
+python:
+  # Install our python package before building the docs
+  install:
+    - method: pip
+      path: .
+
 # explicit set the os to build and python version
 build:
   os: "ubuntu-20.04"
@@ -7,3 +14,7 @@ build:
 # spot sphinx warnings
 sphinx:
   fail_on_warning: true
+# build PDF and EPUB
+formats:
+  - pdf
+  - epub
