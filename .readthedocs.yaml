@@ -1,0 +1,6 @@
+version: 2
+# explicit set the os to build and python version
+build:
+  os: "ubuntu-20.04"
+  tools:
+    python: "3.8"
