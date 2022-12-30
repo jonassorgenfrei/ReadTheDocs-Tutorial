@@ -7,10 +7,10 @@ python:
       path: .
 
 # explicit set the os to build and python version
-build:
-  os: "ubuntu-20.04"
-  tools:
-    python: "3.8"
+#build:
+#  os: "ubuntu-20.04"
+#  tools:
+#    python: "3.8"
 # spot sphinx warnings
 sphinx:
   fail_on_warning: true
